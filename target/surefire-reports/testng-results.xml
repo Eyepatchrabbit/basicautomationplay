@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="5716" started-at="2016-12-21T15:56:05Z" finished-at="2016-12-21T15:56:11Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="5716" started-at="2016-12-21T15:56:05Z" finished-at="2016-12-21T15:56:11Z">
+      <class name="onthegrid.firefoxDriver">
+        <test-method status="PASS" signature="searchGoogle()" name="searchGoogle" duration-ms="5652" started-at="2016-12-21T16:56:05Z" finished-at="2016-12-21T16:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+      </class> <!-- onthegrid.firefoxDriver -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

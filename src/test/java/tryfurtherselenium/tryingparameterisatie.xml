@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="1" >
+
+    <parameter name="start" value="98" />
+    <parameter name="addition" value="2" />
+
+    <test name="testGuru">
+        <parameter name="addition" value="3" />
+        <classes>
+            <class name="tryfurtherselenium.tryingParameterization">
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <parameter name="addition" value="9" />
+        <classes>
+            <class name="tryfurtherselenium.tryingParameterization">
+            </class>
+        </classes>
+    </test>
+</suite>
